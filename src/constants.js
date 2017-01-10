@@ -18,6 +18,10 @@ export const colors = {
   darkpurple: '#7d1e81'
 };
 
+export const fonts = {
+  sofia: 'Sofia Pro'
+}
+
 export const styles = StyleSheet.create({
   container: {
     flex: 1
@@ -29,7 +33,7 @@ export const navStyles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
-    backgroundColor: colors.teal,
+    backgroundColor: colors.darkblue,
     paddingTop: 20,
     height: 64
   },
@@ -39,7 +43,7 @@ export const navStyles = StyleSheet.create({
   title: {
     color: colors.white,
     fontSize: 30,
-    fontFamily: 'Sofia Pro'
+    fontFamily: fonts.sofia
   },
   right: {
     height: 30

@@ -38,7 +38,7 @@ const listItemStyle = StyleSheet.create({
   },
   title: {
     color:constants.colors.white,
-
+    fontFamily: constants.fonts.sofia
   }
 });
 
