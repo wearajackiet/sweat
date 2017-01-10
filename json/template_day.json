@@ -1,0 +1,151 @@
+	"pre-week1": {
+		"Monday": {
+			"1": {
+				"Squats": {
+					"order": 1,
+					"reps": 15,
+					"completed": false
+				},
+				"Stationary Lunges": {
+					"order": 2,
+					"reps": 24,
+					"completed": false
+				},
+				"Skipping": {
+					"order": 3,
+					"reps": 50,
+					"completed": false
+				},
+				"Knee Ups": {
+					"order": 4,
+					"reps": 24,
+					"completed": false
+				}
+			},
+			"2": {
+				"Walking Lunges": {
+					"order": 1,
+					"reps": 24,
+					"completed": false
+				},
+				"Sumo Squats": {
+					"order": 2,
+					"reps": 15,
+					"completed": false
+				},
+				"Step Ups": {
+					"order": 3,
+					"reps": 24,
+					"completed": false
+				},
+				"Mountain Climbers": {
+					"order": 4,
+					"reps": 50,
+					"completed": false
+				}
+			},
+			"Cool Down": "lower"
+		},
+		"Tuesday": {
+			"exercise": "LISS",
+			"time": "35 - 45"
+		},
+		"Wednesday": {
+			"1": {
+				"Knee Push Ups": {
+					"order": 1,
+					"reps": 15,
+					"completed": false
+				},
+				"Straight Leg Raises": {
+					"order": 2,
+					"reps": 15,
+					"completed": false
+				},
+				"Toe Taps": {
+					"order": 3,
+					"reps": 15,
+					"completed": false
+				},
+				"Plank": {
+					"order": 4,
+					"seconds": 30
+				}
+			},
+			"2": {
+				"Lay Down Knee Push Ups": {
+					"order": 1,
+					"reps": 15,
+					"completed": false
+				},
+				"Straight Leg Sit Ups": {
+					"order": 2,
+					"reps": 15,
+					"completed": false
+				},
+				"Tricep Dips": {
+					"order": 3,
+					"reps": 15,
+					"completed": false
+				},
+				"Ab Bikes": {
+					"order": 4,
+					"reps": 30,
+					"completed": false
+				}
+			}
+		},
+		"Thursday": {
+			"exercise": "LISS",
+			"time": "35 - 45"
+		},
+		"Friday": {
+			"1": {
+				"Squats": {
+					"order": 1,
+					"reps": 20,
+					"completed": false
+				},
+				"Burpees": {
+					"order": 2,
+					"reps": 10,
+					"completed": false
+				},
+				"Tricep Dips": {
+					"order": 3,
+					"reps": 20,
+					"completed": false
+				},
+				"Straight Leg Sit Ups": {
+					"order": 4,
+					"reps": 15,
+					"completed": false
+				}
+			},
+			"2": {
+				"Toe Taps": {
+					"order": 1,
+					"reps": 20,
+					"completed": false
+				},
+				"Lay Down Knee Push Ups": {
+					"order": 2,
+					"reps": 15,
+					"completed": false
+				},
+				"Step Ups": {
+					"order": 3,
+					"reps": 24,
+					"completed": false
+				},
+				"Mountain Climbers": {
+					"order": 4,
+					"reps": 50,
+					"completed": false
+				}
+			}
+		},
+		"Saturday": {
+			"exercise": "stretching"
+		}
+	},

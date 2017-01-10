@@ -1,0 +1,85 @@
+
+	"stretch": {
+		"lower": {
+			"calvesAndHamstrings1": {
+				"title": "Calvs And Hamstrings 1",
+				"order": 1,
+				"reps": 2,
+				"img": ""
+			},
+			"adductors1": {
+				"title": "Adductors 1",
+				"order": 2,
+				"reps": 1,
+				"img": ""
+			},
+			"adductors2": {
+				"title": "Adductors 2",
+				"order": 3,
+				"reps": 1,
+				"img": ""
+			},
+			"hipFlexors": {
+				"title": "Hip Flexors",
+				"order": 4,
+				"reps": 2,
+				"img": ""
+			},
+			"calvesAndHamstrings2": {
+				"title": "Cavls and Hamstrings 2",
+				"order": 5,
+				"reps": 1,
+				"img": ""
+			},
+			"quads": {
+				"title": "Quads",
+				"order": 6,
+				"reps": 2,
+				"img": ""
+			},
+			"calvesAndHamstrings3": {
+				"title": "Cavles and Hamstrings 3",
+				"order": 7,
+				"reps": 2,
+				"img": ""
+			},
+			"glutes": {
+				"title": "Glutes",
+				"order": 8,
+				"reps": 2,
+				"img": ""
+			}
+		},
+		"upper": {
+			"abs": {
+				"title": "Abs",
+				"order": 1,
+				"reps": 1,
+				"img": ""
+			},
+			"lats": {
+				"title": "Lats",
+				"order": 2,
+				"reps": 2,
+				"img": ""
+			},
+			"deltoid": {
+				"title": "Deltoid",
+				"order": 3,
+				"reps": 2,
+				"img": ""
+			},
+			"triceps": {
+				"title": "Triceps",
+				"order": 4,
+				"reps": 2,
+				"img": ""
+			},
+			"pecs": {
+				"title": "Pecs",
+				"order": 5,
+				"reps": 1,
+				"img": ""
+			}
+		}
+	}
