@@ -25,6 +25,11 @@ const exerciseStyle = StyleSheet.create({
   },
   title: {
     color: constants.colors.white,
+    fontSize: 30,
+    fontFamily: constants.fonts.sofia
+  },
+  reps: {
+    color: constants.colors.white,
     fontSize: 20,
     fontFamily: constants.fonts.sofia
   },
@@ -66,6 +71,7 @@ var ExerciseListItem = React.createClass({
       <View style={exerciseStyle.container}>
         <View style={exerciseStyle.textContainer}>
           <Text style={exerciseStyle.title}>{this.props.exercise.title}</Text>
+          <Text style={exerciseStyle.reps}>{this.props.exercise.reps} times</Text>
         </View>
         <TouchableWithoutFeedback style={exerciseStyle.moreBtnContainer}>
           <View style={exerciseStyle.moreBtn}>
@@ -126,7 +132,6 @@ export var ExercisePage = React.createClass({
 
       var items = [];
       snap.forEach((child) => {
-        console.log("-----------------------");
         if (child.key === 'Cool Down') {
           console.log('Cool Down');
           console.log(child.val());
@@ -141,10 +146,9 @@ export var ExercisePage = React.createClass({
             items.push({
               title: ex['exercise'],
               completed: ex['completed'],
-              reps: ex['reps']
+              reps: (ex['reps'] === null) ? ex['seconds'] : ex['reps']
             });
           };
-          console.log(items);
         }
         else if (child.key === 'exercise' || child.key === 'time') {
           if (child.key === 'exercise') {
@@ -156,7 +160,6 @@ export var ExercisePage = React.createClass({
               time: child.val()
             })
           }
-          console.log(items);
         }
       });
 

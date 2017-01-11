@@ -29,16 +29,16 @@ const listItemStyle = StyleSheet.create({
   container: {
     flexDirection: 'row',
     alignItems: 'center',
-    height: 40,
     borderColor: constants.colors.white,
     borderStyle: 'solid',
     borderTopWidth: 1,
-    padding: 10,
+    padding: 20,
     backgroundColor: constants.colors.pink
   },
   title: {
     color:constants.colors.white,
-    fontFamily: constants.fonts.sofia
+    fontFamily: constants.fonts.sofia,
+    fontSize: 20
   }
 });
 
